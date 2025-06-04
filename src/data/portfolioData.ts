@@ -1,5 +1,5 @@
 // The main data object for dynamic content
-import { PortfolioData } from "../types/portfolio";
+import type { PortfolioData } from '../types/portfolio';
 
 export const portfolioData: PortfolioData = {
   name: "Stephan Lefort",
