@@ -42,3 +42,4 @@ function Hero({  onScrollTo, isLoaded }: HeroProps) {
       </section>
     );
 }
+export default Hero;

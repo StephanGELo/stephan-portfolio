@@ -1,13 +1,39 @@
+import React, { useState, useEffect } from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
+  const [ isMenuOpen, setIsMenuOpen ] = useState(false);
+  const [ activeSection, setActiveSection ] = useState('home');
+  const [ isLoaded, setIsLoaded ] = useState(false);
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({behavior: 'smooth' });
+    setActiveSection(sectionId);
+    setIsMenuOpen(false);
+  };
 
   return (
     <>
-      <div className="min-h-screen bg-green-100 flex items-center justify-center">
-        <h1 className="text-4xl font-bold text-blue-600 underline">Hello Tailwind + React + Typescript</h1>
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 text-white">
+        <Navbar 
+          activeSection={activeSection}
+          isMenuOpen={isMenuOpen}
+          setActiveSection={setActiveSection}
+          setIsMenuOpen={setIsMenuOpen}
+        />
+        <Hero
+          isLoaded={isLoaded}
+          onScrollTo={scrollToSection}
+        />
       </div>
     </>
-  )
+  );
 }
 
 export default App
