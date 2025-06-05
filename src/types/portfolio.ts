@@ -37,6 +37,7 @@ export interface PortfolioData {
   github: string;
   profileImage1: string;
   profileImage2: string;
+  resume: string;
   showExperience?: boolean;
   showProjects?: boolean;
   skills: Skill[];

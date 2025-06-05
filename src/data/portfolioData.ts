@@ -12,6 +12,7 @@ export const portfolioData: PortfolioData = {
   github: 'https://github.com/StephanGELo',
   profileImage1: '/images/ghibli-avatar.png',
   profileImage2:'/images/desert-photo.png',
+  resume: '/assets/resume.pdf',
   showExperience: true,
   showProjects: true,
 
