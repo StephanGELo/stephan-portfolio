@@ -41,7 +41,7 @@ function Contact() {
                         Send Email
                     </a>
                     <button className="px-6 sm:px-8 py-3 bg-gradient-to-r from-amber-600/20 to-yellow-600/20 hover:from-amber-600/30 hover:to-yellow-600/30 border border-amber-500/40 hover:border-amber-400/60 text-amber-400 hover:text-amber-300 font-medium rounded-lg transition-all duration-200 hover:scale-105 hover:shadow-lg hover:shadow-amber-500/20 text-sm sm:text-base">
-                        Download Resume
+                        View Resume
                     </button>
                 </div>
             </div>

@@ -10,14 +10,14 @@ interface NavbarProps {
 }
 
 function Navbar({ activeSection, isMenuOpen, setActiveSection, setIsMenuOpen, onScrollTo }: NavbarProps) {
-    // const scrollToSection = (sectionId: string) => {
-    //     const element = document.getElementById(sectionId);
-    //     element?.scrollIntoView({ behavior: 'smooth'});
-    //     setActiveSection(sectionId);
-    //     setIsMenuOpen(false);
-    // }
+    const scrollToSection = (sectionId: string) => {
+        const element = document.getElementById(sectionId);
+        element?.scrollIntoView({ behavior: 'smooth'});
+        setActiveSection(sectionId);
+        setIsMenuOpen(false);
+    }
 
-    const navItems = [ 'home', 'about', 'skills', 'experience', 'projects', 'contact'];
+    const navItems = [ 'home', 'about', 'skills', 'experience', 'education', 'projects', 'contact'];
 
     return (
         <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-sm border-b border-blue-800/50 z-50">

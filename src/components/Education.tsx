@@ -2,7 +2,7 @@ import { portfolioData } from "../data/portfolioData";
 
 function Education() {
     return (
-        <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/40">
+        <section id="education" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/40">
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 sm:mb-16">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Education</span>
