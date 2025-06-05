@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
@@ -27,12 +28,14 @@ function App() {
           isMenuOpen={isMenuOpen}
           setActiveSection={setActiveSection}
           setIsMenuOpen={setIsMenuOpen}
+          onScrollTo={scrollToSection}
         />
         <Hero
           isLoaded={isLoaded}
           onScrollTo={scrollToSection}
         />
         <About />
+        <Skills />
       </div>
     </>
   );
