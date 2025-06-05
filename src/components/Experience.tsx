@@ -1,7 +1,7 @@
 import React from 'react';
 import { portfolioData } from '../data/portfolioData';
 
-export function Experience() {
+function Experience() {
     return (
         <section id="experience" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">

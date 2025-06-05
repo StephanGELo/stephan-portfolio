@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
-import Experience  from './components/Experience';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 function App() {
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
@@ -38,6 +39,7 @@ function App() {
         <About />
         <Skills />
         <Experience />
+        <Projects />
       </div>
     </>
   );
