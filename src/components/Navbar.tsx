@@ -1,4 +1,3 @@
-import React from 'react';
 
 interface NavbarProps {
     activeSection : string;
@@ -10,12 +9,12 @@ interface NavbarProps {
 }
 
 function Navbar({ activeSection, isMenuOpen, setActiveSection, setIsMenuOpen, onScrollTo }: NavbarProps) {
-    const scrollToSection = (sectionId: string) => {
-        const element = document.getElementById(sectionId);
-        element?.scrollIntoView({ behavior: 'smooth'});
-        setActiveSection(sectionId);
-        setIsMenuOpen(false);
-    }
+    // const scrollToSection = (sectionId: string) => {
+    //     const element = document.getElementById(sectionId);
+    //     element?.scrollIntoView({ behavior: 'smooth'});
+    //     setActiveSection(sectionId);
+    //     setIsMenuOpen(false);
+    // }
 
     const navItems = [ 'home', 'about', 'skills', 'experience', 'education', 'projects', 'contact'];
 
