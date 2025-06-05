@@ -32,7 +32,7 @@ function App() {
         <Navbar 
           activeSection={activeSection}
           isMenuOpen={isMenuOpen}
-          setActiveSection={setActiveSection}
+          // setActiveSection={setActiveSection}
           setIsMenuOpen={setIsMenuOpen}
           onScrollTo={scrollToSection}
         />
