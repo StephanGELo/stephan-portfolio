@@ -2,22 +2,30 @@
 import type { PortfolioData } from '../types/portfolio';
 
 export const portfolioData: PortfolioData = {
-  name: "Stephan Lefort",
-  title: "Frontend-Focused Full Stack Developer",
-  bio: "Detail-oriented developer with a strong foundation in frontend technologies and a background in civil engineering. Proficient in React, Node.js, and PostgreSQL. Passionate about leveraging software to improve construction workflows and operations.",
-  email: "stephanelluel@gmail.com",
-  phone: "", // Phone number intentionally omitted for privacy
-  location: "California, USA",
+  name: 'Stephan Lefort',
+  title: 'Frontend-Focused Full Stack Developer',
+  bio: `Full stack developer with a civil engineering background, passionate about building efficient, user-centric applications. I specialize in React, Node.js, PostgreSQL, and Tailwind CSS. I enjoy bridging the gap between design and development—especially in the construction tech space.`,
+  email: 'stephanelluel@gmail.com',
+  phone: '',
+  location: 'California, USA',
+  linkedin: 'https://www.linkedin.com/in/stephan-lefort/',
+  github: 'https://github.com/StephanGELo',
+  profileImage1: '/images/ghibli-avatar.png',
+  profileImage2:'/images/desert-photo.png',
+  showExperience: true,
+  showProjects: true,
+
   skills: [
-    { name: "React", level: 85, category: "Frontend" },
-    { name: "JavaScript", level: 90, category: "Frontend" },
-    { name: "Node.js", level: 75, category: "Backend" },
-    { name: "PostgreSQL", level: 70, category: "Database" },
-    { name: "Express.js", level: 70, category: "Backend" },
-    { name: "Tailwind CSS", level: 80, category: "Frontend" },
-    { name: "JWT", level: 65, category: "DevOps" },
-    { name: "Render Deployment", level: 70, category: "DevOps" }
+    { name: 'React', level: 'Advanced', category: 'Frontend' },
+    { name: 'JavaScript', level: 'Advanced', category: 'Frontend' },
+    { name: 'Node.js', level: 'Intermediate', category: 'Backend' },
+    { name: 'PostgreSQL', level: 'Intermediate', category: 'Database' },
+    { name: 'Express.js', level: 'Intermediate', category: 'Backend' },
+    { name: 'Tailwind CSS', level: 'Intermediate', category: 'Frontend' },
+    { name: 'JWT', level: 'Intermediate', category: 'DevOps' },
+    { name: 'Render Deployment', level: 'Intermediate', category: 'DevOps' }
   ],
+
   experience: [
     {
       title: "Resident Engineer",

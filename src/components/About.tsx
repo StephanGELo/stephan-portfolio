@@ -31,9 +31,9 @@ function About() {
           <div className="flex justify-center order-first lg:order-last px-4">
             <div className="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-2xl border border-blue-500/30 overflow-hidden shadow-2xl shadow-blue-900/30">
               <img 
-                src="/images/desert-photo.jpg" 
+                src={portfolioData.profileImage2}
                 alt="Adventure and Travel"
-                className="w-full h-full object-cover"
+                className="w-full object-cover"
               />
             </div>
           </div>

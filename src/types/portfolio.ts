@@ -1,6 +1,6 @@
 export interface Skill {
   name: string;
-  level: number;
+  level: 'Beginner' | 'Intermediate' | 'Advanced';
   category: string;
 }
 
@@ -29,10 +29,16 @@ export interface Project {
 export interface PortfolioData {
   name: string;
   title: string;
-  bio: string;
+  bio: string; // Consider validating or truncating to ~250 characters for responsive layout compatibility
   email: string;
   phone: string;
   location: string;
+  linkedin: string;
+  github: string;
+  profileImage1: string;
+  profileImage2: string;
+  showExperience?: boolean;
+  showProjects?: boolean;
   skills: Skill[];
   experience: Experience[];
   education: Education[];

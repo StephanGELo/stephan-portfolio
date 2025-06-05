@@ -35,13 +35,13 @@ function Skills() {
                                     {skill.name}
                                 </span>
                                 <span className="text-amber-400 text-xs sm:text-sm font-bold bg-amber-900/20 px-2 py-1 rounded-full border border-amber-600/30 flex-shrink-0">
-                                    {skill.level}%
+                                    {skill.level}
                                 </span>
                                 </div>
                                 <div className="bg-slate-700/50 rounded-full h-2 border border-slate-600/30 overflow-hidden w-full">
                                 <div
                                     className="h-2 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-blue-600 transition-all duration-1000 shadow-sm shadow-blue-400/30 group-hover:shadow-blue-400/50"
-                                    style={{ width: `${skill.level}%` }}
+                                    style={{ width: `${skill.level}` }}
                                 />
                                 </div>
                             </div>

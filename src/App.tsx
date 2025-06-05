@@ -27,8 +27,8 @@ function App() {
   return (
     <>
       {/* Add overflow-x-hidden and max-width constraints */}
-      {/* <div className="min-h-screen w-full max-w-full bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 text-white overflow-x-hidden"> */}
-      <div className="max-w-screen overflow-x-hidden px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen w-full max-w-full bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 text-white overflow-x-hidden">
+      {/* <div className="max-w-screen overflow-x-hidden px-4 sm:px-6 lg:px-8"> */}
         <Navbar 
           activeSection={activeSection}
           isMenuOpen={isMenuOpen}

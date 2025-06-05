@@ -13,7 +13,7 @@ function Hero({  onScrollTo, isLoaded }: HeroProps) {
         <div className="mb-6 sm:mb-8">
           <div className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-full mx-auto mb-4 sm:mb-6 shadow-2xl shadow-blue-500/25 border-2 sm:border-4 border-blue-500/30 overflow-hidden">
             <img 
-              src="/images/ghibli-avatar.png" 
+              src={portfolioData.profileImage1} 
               alt="Stephan - Full Stack Developer avatar"
               className="w-full h-full object-cover"
             />
