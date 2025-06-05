@@ -2,13 +2,13 @@
 interface NavbarProps {
     activeSection : string;
     isMenuOpen : boolean;
-    setActiveSection: (section: string) => void;
+    // setActiveSection: (section: string) => void;
     setIsMenuOpen: (open: boolean) => void;
     onScrollTo: (section: string) => void;
 
 }
 
-function Navbar({ activeSection, isMenuOpen, setActiveSection, setIsMenuOpen, onScrollTo }: NavbarProps) {
+function Navbar({ activeSection, isMenuOpen, setIsMenuOpen, onScrollTo }: NavbarProps) {
     // const scrollToSection = (sectionId: string) => {
     //     const element = document.getElementById(sectionId);
     //     element?.scrollIntoView({ behavior: 'smooth'});
