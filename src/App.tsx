@@ -42,9 +42,9 @@ function App() {
         />
         <About />
         <Skills />
+        <Projects />
         <Experience />
         <Education />
-        <Projects />
         <Contact />
       </div>
     </>
