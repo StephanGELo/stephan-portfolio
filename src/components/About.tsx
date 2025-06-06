@@ -33,7 +33,7 @@ function About() {
               <img 
                 src={portfolioData.profileImage2}
                 alt="Adventure and Travel"
-                className="w-full object-cover"
+                className="w-full object-cover object-top -translate-y-25"
               />
             </div>
           </div>
