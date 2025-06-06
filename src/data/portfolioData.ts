@@ -10,6 +10,8 @@ export const portfolioData: PortfolioData = {
   location: 'California, USA',
   linkedin: 'https://www.linkedin.com/in/stephan-lefort/',
   github: 'https://github.com/StephanGELo',
+  twitter:'https://x.com/lefortsge',
+  instagram:'https://instagram.com/stephanlefort',
   profileImage1: '/images/ghibli-avatar.png',
   profileImage2:'/images/desert-photo.png',
   resume: '/assets/resume.pdf',

@@ -35,6 +35,8 @@ export interface PortfolioData {
   location: string;
   linkedin: string;
   github: string;
+  twitter: string;
+  instagram: string;
   profileImage1: string;
   profileImage2: string;
   resume: string;
