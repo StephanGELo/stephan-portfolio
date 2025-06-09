@@ -31,6 +31,34 @@ export const portfolioData: PortfolioData = {
 
   experience: [
     {
+      title: 'Track and Trace Platform',
+      description: 'A web-based frontend platform with track and trace functionality for products. Built using SmartAdmin Plugins and Angular for a seamless UX. Integrated ngx-datatable to handle and present large datasets in responsive tables. Navigated between features using Angular Router for a fluid application experience.',
+      tech: ['Angular', 'SmartAdmin', 'ngx-datatable'],
+      link: '',
+      github: ''
+    },
+    {
+      title: 'BlueST SDK Data Logger',
+      description: 'A backend application to log data from BLE sensors attached to a Bart Car. Developed using Python and the BlueST SDK to record timestamped data to log files. Deployed and tested with Raspberry Pi for uninterrupted data collection — even with offline sensors.',
+      tech: ['Python', 'BlueST SDK', 'Raspberry Pi'],
+      link: '',
+      github: ''
+    },
+    {
+      title: 'D.R.I.V.E',
+      description: 'A backend microservice replica of a ride-sharing app like Uber/Lyft. Built a driver microservice with Koa to interface with other services. Used Redis cache to optimize read latency below 10ms. Load-tested with Artillery to handle 100+ RPS and monitored performance with New Relic. Used Cassandra to store 10M records with sub-40ms query times.',
+      tech: ['Koa', 'Redis', 'New Relic', 'Cassandra', 'Artillery'],
+      link: '',
+      github: ''
+    },
+    {
+      title: 'Literary Litten',
+      description: 'A “Rotten Tomatoes for books” platform. Used React to render dynamic book cards, styled with Material-UI for a polished layout. Pulled bestseller info using Axios from multiple APIs and MongoDB. Hosted the app on Heroku.',
+      tech: ['React', 'Material-UI', 'Axios', 'MongoDB'],
+      link: 'https://gitlit.herokuapp.com',
+      github: ''
+    },
+    {
       title: "Resident Engineer",
       company: "Arup Singapore Pte Ltd",
       period: "2012 - 2016",
