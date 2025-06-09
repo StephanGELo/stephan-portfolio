@@ -18,46 +18,77 @@ export const portfolioData: PortfolioData = {
   showExperience: true,
   showProjects: true,
 
-  skills: [
+  // skills: [
+  //   { name: 'React', level: 'Advanced', category: 'Frontend' },
+  //   { name: 'JavaScript', level: 'Advanced', category: 'Frontend' },
+  //   { name: 'Node.js', level: 'Intermediate', category: 'Backend' },
+  //   { name: 'PostgreSQL', level: 'Intermediate', category: 'Database' },
+  //   { name: 'Express.js', level: 'Intermediate', category: 'Backend' },
+  //   { name: 'Tailwind CSS', level: 'Intermediate', category: 'Frontend' },
+  //   { name: 'JWT', level: 'Intermediate', category: 'DevOps' },
+  //   { name: 'Render Deployment', level: 'Intermediate', category: 'DevOps' }
+  // ],
+  skills : [
     { name: 'React', level: 'Advanced', category: 'Frontend' },
     { name: 'JavaScript', level: 'Advanced', category: 'Frontend' },
-    { name: 'Node.js', level: 'Intermediate', category: 'Backend' },
-    { name: 'PostgreSQL', level: 'Intermediate', category: 'Database' },
-    { name: 'Express.js', level: 'Intermediate', category: 'Backend' },
+    { name: 'TypeScript', level: 'Intermediate', category: 'Frontend' },
     { name: 'Tailwind CSS', level: 'Intermediate', category: 'Frontend' },
-    { name: 'JWT', level: 'Intermediate', category: 'DevOps' },
-    { name: 'Render Deployment', level: 'Intermediate', category: 'DevOps' }
+    { name: 'Angular', level: 'Intermediate', category: 'Frontend' },
+    { name: 'SmartAdmin', level: 'Intermediate', category: 'Frontend' },
+    { name: 'Node.js', level: 'Intermediate', category: 'Backend' },
+    { name: 'Express.js', level: 'Intermediate', category: 'Backend' },
+    { name: 'Koa', level: 'Intermediate', category: 'Backend' },
+    { name: 'Python', level: 'Intermediate', category: 'Backend' },
+    { name: 'MongoDB', level: 'Intermediate', category: 'Database' },
+    { name: 'PostgreSQL', level: 'Intermediate', category: 'Database' },
+    { name: 'Redis', level: 'Intermediate', category: 'DevOps' },
+    { name: 'Cassandra', level: 'Beginner', category: 'Database' },
+    { name: 'BlueST SDK', level: 'Beginner', category: 'Backend' },
+    { name: 'Raspberry Pi', level: 'Beginner', category: 'Hardware' },
+    { name: 'New Relic', level: 'Beginner', category: 'DevOps' },
+    { name: 'Artillery', level: 'Beginner', category: 'DevOps' },
+    { name: 'Material-UI', level: 'Intermediate', category: 'Frontend' },
+    { name: 'Axios', level: 'Intermediate', category: 'Frontend' }
   ],
-
-  experience: [
+  softwareExperience : [
     {
-      title: 'Track and Trace Platform',
-      description: 'A web-based frontend platform with track and trace functionality for products. Built using SmartAdmin Plugins and Angular for a seamless UX. Integrated ngx-datatable to handle and present large datasets in responsive tables. Navigated between features using Angular Router for a fluid application experience.',
+      title: 'Software Engineer',
+      company: 'Track and Trace Platform',
+      period: '2019',
       tech: ['Angular', 'SmartAdmin', 'ngx-datatable'],
-      link: '',
-      github: ''
+      link: "",
+      github: "",
+      description: 'A web-based frontend platform with track and trace functionality for products. Built using SmartAdmin Plugins and Angular for a seamless UX. Integrated ngx-datatable to handle and present large datasets in responsive tables. Navigated between features using Angular Router for a fluid application experience.'
     },
     {
-      title: 'BlueST SDK Data Logger',
-      description: 'A backend application to log data from BLE sensors attached to a Bart Car. Developed using Python and the BlueST SDK to record timestamped data to log files. Deployed and tested with Raspberry Pi for uninterrupted data collection — even with offline sensors.',
+      title: 'Software Engineer',
+      company: 'BlueST SDK Data Logger',
+      period: '2019',
       tech: ['Python', 'BlueST SDK', 'Raspberry Pi'],
-      link: '',
-      github: ''
+      link: "",
+      github: "",
+      description: 'A backend application to log data from BLE sensors attached to a Bart Car. Developed using Python and the BlueST SDK to record timestamped data to log files. Deployed and tested with Raspberry Pi for uninterrupted data collection — even with offline sensors.'
     },
     {
-      title: 'D.R.I.V.E',
-      description: 'A backend microservice replica of a ride-sharing app like Uber/Lyft. Built a driver microservice with Koa to interface with other services. Used Redis cache to optimize read latency below 10ms. Load-tested with Artillery to handle 100+ RPS and monitored performance with New Relic. Used Cassandra to store 10M records with sub-40ms query times.',
+      title: 'Software Engineer',
+      company: 'D.R.I.V.E',
+      period: '2018',
       tech: ['Koa', 'Redis', 'New Relic', 'Cassandra', 'Artillery'],
-      link: '',
-      github: ''
+      link: "",
+      github: "",
+      description: 'A backend microservice replica of a ride-sharing app like Uber/Lyft. Built a driver microservice with Koa to interface with other services. Used Redis cache to optimize read latency below 10ms. Load-tested with Artillery to handle 100+ RPS and monitored performance with New Relic. Used Cassandra to store 10M records with sub-40ms query times.'
     },
     {
-      title: 'Literary Litten',
-      description: 'A “Rotten Tomatoes for books” platform. Used React to render dynamic book cards, styled with Material-UI for a polished layout. Pulled bestseller info using Axios from multiple APIs and MongoDB. Hosted the app on Heroku.',
+      title: 'Software Engineer',
+      company: 'Literary Litten',
+      period: '2017',
       tech: ['React', 'Material-UI', 'Axios', 'MongoDB'],
       link: 'https://gitlit.herokuapp.com',
-      github: ''
-    },
+      github: "",
+      description: 'A “Rotten Tomatoes for books” platform. Used React to render dynamic book cards, styled with Material-UI for a polished layout. Pulled bestseller info using Axios from multiple APIs and MongoDB. Hosted the app on Heroku.'
+    }
+  ],
+  experience: [
     {
       title: "Resident Engineer",
       company: "Arup Singapore Pte Ltd",

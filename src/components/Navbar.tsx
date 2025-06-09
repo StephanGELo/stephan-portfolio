@@ -16,7 +16,7 @@ function Navbar({ activeSection, isMenuOpen, setIsMenuOpen, onScrollTo }: Navbar
     //     setIsMenuOpen(false);
     // }
 
-    const navItems = [ 'home', 'about', 'skills', 'projects', 'experience', 'education', 'contact'];
+    const navItems = [ 'home', 'about', 'skills', 'projects', 'softwareExperience', 'experience', 'education', 'contact'];
 
 
     return (

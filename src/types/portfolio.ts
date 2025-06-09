@@ -26,6 +26,16 @@ export interface Project {
   github: string;
 }
 
+export interface SoftwareExperience {
+  title: string;
+  company: string;
+  period: string;
+  tech: string[];
+  link: string;
+  github: string;
+  description: string;
+}
+
 export interface PortfolioData {
   name: string;
   title: string;
@@ -46,5 +56,6 @@ export interface PortfolioData {
   experience: Experience[];
   education: Education[];
   projects: Project[];
+  softwareExperience: SoftwareExperience[];
 }
 
