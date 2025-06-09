@@ -3,7 +3,7 @@ import { portfolioData } from '../data/portfolioData';
 
 function Experience() {
     return (
-        <section id="experience" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 w-full max-w-full overflow-hidden">
+        <section id="construction Experience" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 w-full max-w-full overflow-hidden">
             <div className="max-w-4xl mx-auto w-full">
                 <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 sm:mb-16">
                     My <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Experience</span>

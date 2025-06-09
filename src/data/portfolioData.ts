@@ -93,19 +93,22 @@ export const portfolioData: PortfolioData = {
       title: "Resident Engineer",
       company: "Arup Singapore Pte Ltd",
       period: "2012 - 2016",
-      description: "Led a team on a $1.67B project; managed structural workflows and technical troubleshooting."
+      // description: "Led a team on a $1.67B project; managed structural workflows and technical troubleshooting."
+      description:"Led a team of technical officers in executing critical substructural works for a S$1.67 billion mixed-use development spanning over 4 hectares. I oversaw deep drilling operations for piling activities, ensuring the correct mix of bentonite and polymer to safely reach depths of 100 meters below ground while maintaining borehole stability. I also supervised the construction of diaphragm walls adjacent to an underground train station with zero property damage, demonstrating precision in high-risk environments. My role included technical troubleshooting and supervision of a highly complex six-level basement excavation, which connected to both an underground pedestrian tunnel and transit station—all constructed beneath a live, high-traffic roadway. Additionally, I played a key role in the completion of a S$450 million mixed-use development, where my stakeholder coordination efforts helped deliver 20% of the project two months ahead of schedule, showcasing my ability to navigate technical and operational challenges while driving results."
     },
     {
       title: "Resident Engineer",
       company: "CPG Corporation Pte Ltd",
       period: "2008 - 2012",
-      description: "Supervised construction QA and coordinated design changes to optimize project outcomes."
+      // description: "Supervised construction QA and coordinated design changes to optimize project outcomes."
+      description:"Delivered five construction projects valued under S$30 million over a 4-year period, ensuring both profitability and timely execution. I was responsible for overseeing quality assurance and quality control (QA/QC) on structural rectification works, where my leadership contributed to a more than 40% reduction in completion defects. By actively collaborating with clients, architects, and regulatory authorities on design modifications, I helped to minimize rectification costs and streamline project delivery timelines. My role was instrumental in upholding structural standards while enhancing project efficiency and outcomes."
     },
     {
-      title: "Project Engineer",
+      title: "Project Engineer/ Project Manager",
       company: "Hon Industries Pte Ltd",
       period: "2005 - 2008",
-      description: "Oversaw services and structural coordination across engineering teams."
+      // description: "Oversaw services and structural coordination across engineering teams."
+      description: "Successfully led the completion of six construction projects valued under $10 million over a span of 2.5 years, consistently delivering results that aligned with both budgetary and scheduling goals. I played a pivotal role in completing structural work activities ahead of schedule, which contributed significantly to cost savings and efficient resource utilization. My ability to coordinate effectively with engineers across various disciplines, including MEP, civil, and architectural teams, ensured seamless integration of services with the building structure, proactively preventing costly abortive work and rework. This cross-functional collaboration and foresight were critical to maintaining project momentum and quality from foundation to completion."
     }
   ],
   education: [
